@@ -22,3 +22,5 @@ Route::get('/every7','HomeController@index');
 
 Route::get('/addproducts','HomeController@save');
 
+Route::get('every7/{id}', 'HomeController@details');
+

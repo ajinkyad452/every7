@@ -82,6 +82,10 @@ echo"<pre>";
 print_r($newPost->getvalue());
 }
 
+public function details($id)
+{
+    return view('welcome');
+}
 }
  
 ?>

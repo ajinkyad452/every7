@@ -84,7 +84,29 @@ print_r($newPost->getvalue());
 
 public function details($id)
 {
-    return view('welcome');
+    $serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/212feac9ce31.json');
+ 
+    $firebase = (new Factory)
+     
+    ->withServiceAccount($serviceAccount)
+     
+    ->withDatabaseUri('https://tour-app-1084.firebaseio.com/')
+     
+    ->create();
+     
+    $database = $firebase->getDatabase();
+    
+    $reference = $database->getReference('products/today');
+
+    $value = $reference->getValue();
+
+    $product_detail = $value[$id];
+     
+   /*  echo"Hello, <pre>";
+     
+    print_r($product_detail); */
+    //return view('welcome');
+    return view('detail',['product' => $product_detail]);
 }
 }
  

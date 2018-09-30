@@ -156,7 +156,7 @@
                             </div>
                         </div>
                         <!-- end slider item -->
-                        @foreach($products as $product)
+                        @foreach($products as $key=>$product)
                         <!-- start slider item -->
                         <div class="swiper-slide width-auto xs-height-auto last-paragraph-no-margin">
                             <div class="height-100 display-table">
@@ -167,7 +167,7 @@
                                     </div>
                                     <div class="hover-title-box padding-55px-lr width-300px sm-width-100 sm-padding-20px-lr">
                                         <div class="separator width-50px bg-black md-display-none xs-margin-lr-auto"></div>
-                                        <h3><a class="text-white font-weight-500 alt-font text-white-hover" href="../assets/single-project-page-01.html">{{$product['title']}}</a></h3>
+                                        <h3><a class="text-white font-weight-500 alt-font text-white-hover" href="every7/{{$key}}">{{$product['title']}}</a></h3>
                                     </div>
                                 </div>
                             </div>

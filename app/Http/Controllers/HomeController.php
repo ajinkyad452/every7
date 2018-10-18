@@ -33,7 +33,7 @@ public function index(){
      
     //echo"Hello, <pre>";
      
-    //print_r($value);
+    //dd($value);
     return view('main',['products' => $value]);
  
 }

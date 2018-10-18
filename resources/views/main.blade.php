@@ -58,13 +58,14 @@
                             <div class="col-md-4 col-sm-4 col-xs-6 hidden-xs text-left">
                                 <div class="header-social-icon border-none no-padding-left no-margin-left">
                                     <a href="https://fb.me/every7dotcom" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                                    <a href="https://twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://dribbble.com/" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>                          
                                 </div>
                             </div>
                             <!-- start logo -->
-                            <div class="col-md-4 col-sm-4 col-xs-6 text-center xs-text-left">
-                                <a class="logo" href="../assets/index.html"><img src="../assets/images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="pofo" /></a>
+                            <div class="col-md-4 col-sm-4 col-xs-6 text-center xs-text-left" >
+                                <a class="logo" href="../assets/index.html" style="color:#FFF;">
+                                    <h2>EVERY<sup style="color:#ff214f">7</sup></h2>
+                                    <!-- <img src="../assets/images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="pofo" /> -->
+                                </a>
                             </div>
                             <!-- end logo -->
                             <div class="col-md-4 col-sm-4 col-xs-6 text-right">

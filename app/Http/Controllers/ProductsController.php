@@ -99,6 +99,58 @@ class ProductsController extends Controller
         return $deletePost;
     }
 
+    /**
+     * Swap products from current list to upcoming list.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function swaplist(Request $request)
+    {
+        /* $strInventory = $request->inventory;
+        $arrProduct = [];
+        $arrProduct['title'] = $request->title;
+        $arrProduct['body'] = $request->body;
+        $arrProduct['image'] = $request->image;
+        $arrProduct['url'] = $request->url; */
+
+        //dd($arrProduct);
+
+        $database = $this->firebase->getDatabase();
+
+        $reference = $database->getReference('products/today');
+        $arrPost = $reference->getValue();
+        foreach ($arrPost as $key => $value) {
+                $database->getReference('products/history')
+                        ->push($value);
+                
+                $database->getReference('products/today/'.$key)->remove();
+        }
+
+        $reference = $database->getReference('products/upcoming');
+        $arrPost = $reference->getValue();
+        $i = 0;
+        foreach ($arrPost as $key => $value) {
+            if($i < 7){
+                $database->getReference('products/today')
+                        ->push($value);
+                
+                $database->getReference('products/upcoming/'.$key)->remove();
+            }
+            $i++;
+        }
+
+        dd($arrPost);
+
+        /* $newPost = $database
+                    ->getReference('products/'.$strInventory)
+                    ->push($arrProduct); */
+
+        //dd($newPost->getvalue());
+
+        //return $newPost->getvalue();
+        return true;
+    }
+
 }
  
 ?>

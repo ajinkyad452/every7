@@ -115,10 +115,10 @@
                                                     <div class="margin-fifteen-top padding-35px-left xs-no-padding-left">
                                                         <div class="icon-social-medium margin-three-bottom">
                                                             <a href="https://fb.me/every7dotcom" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                                            <a href="https://twitter.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                            <!-- <a href="https://twitter.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                                             <a href="https://dribbble.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
                                                             <a href="https://plus.google.com" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                                            <a href="https://www.tumblr.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                                                            <a href="https://www.tumblr.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-tumblr" aria-hidden="true"></i></a> -->
                                                         </div>
                                                     </div>
                                                     <!-- start social links -->

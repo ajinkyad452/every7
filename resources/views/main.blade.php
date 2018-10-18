@@ -100,7 +100,7 @@
                                                         <!-- end menu item -->
                                                         <!-- start menu item -->
                                                         <li class="dropdown">
-                                                            <a href="../assets/blog-standard-full-width.html">Blog</a><span data-toggle="dropdown" class="dropdown-toggle"></span>
+                                                            <a href="#">Blog</a><span data-toggle="dropdown" class="dropdown-toggle"></span>
                                                         </li>
                                                         <!-- end menu item -->
                                                         <!-- start menu item -->

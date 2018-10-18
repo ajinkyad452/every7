@@ -62,7 +62,7 @@
                             </div>
                             <!-- start logo -->
                             <div class="col-md-4 col-sm-4 col-xs-6 text-center xs-text-left" >
-                                <a class="logo" href="../assets/index.html" style="color:#FFF;">
+                                <a class="logo" href="#" style="color:#FFF;">
                                     <h2>EVERY<sup style="color:#ff214f">7</sup></h2>
                                     <!-- <img src="../assets/images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="pofo" /> -->
                                 </a>

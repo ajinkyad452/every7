@@ -167,7 +167,7 @@
                                     </div>
                                     <div class="hover-title-box padding-55px-lr width-300px sm-width-100 sm-padding-20px-lr">
                                         <div class="separator width-50px bg-black md-display-none xs-margin-lr-auto"></div>
-                                        <h3><a class="text-white font-weight-500 alt-font text-white-hover" href="every7/{{$key}}">{{$product['title']}}</a></h3>
+                                        <h3><a class="text-white font-weight-500 alt-font text-white-hover" target="blank" href="{{$product['url']}}">{{$product['title']}}</a></h3>
                                     </div>
                                 </div>
                             </div>

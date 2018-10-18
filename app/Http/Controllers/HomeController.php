@@ -57,13 +57,13 @@ $newPost = $database
  
 ->push([
  
-    'title' => 'Sacard Games Part 2',
+    'title' => 'OnePlus 6',
      
-    'body' => 'Vikram Chandra',
+    'body' => 'OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)',
     
-    'image' => 'http://every7.xyz/products/wp-content/uploads/2018/09/51ikQ3LtN7L._SX325_BO1204203200_.jpg',
+    'image' => 'https://images-na.ssl-images-amazon.com/images/I/61zm87iWL6L._SL1500_.jpg',
     
-    'url' => ''
+    'url' => 'https://www.amazon.in/OnePlus-Mirror-Black-64GB-Storage/dp/B0756Z43QS'
      
 ]);
  
